@@ -34,9 +34,9 @@
     <url>http://wso2.org</url>
 
     <scm>
-        <url>https://github.com/wso2-extensions/identity-agent-sso.git</url>
-        <developerConnection>scm:git:https://github.com/wso2-extensions/identity-agent-sso.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2-extensions/identity-agent-sso.git</connection>
+        <url>https://github.com/wso2-extensions/identity-carbon-auth-signedjwt.git</url>
+        <developerConnection>scm:git:https://github.com/wso2-extensions/identity-carbon-auth-signedjwt.git</developerConnection>
+        <connection>scm:git:https://github.com/wso2-extensions/identity-carbon-auth-signedjwt.git</connection>
         <tag>HEAD</tag>
     </scm>
 
