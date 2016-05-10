@@ -26,7 +26,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-carbon-auth-signedjwt</artifactId>
-    <version>5.0.9-SANPSHOT</version>
+    <version>5.0.9-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - SignedJWT Authenticator Aggregator Module</name>
     <description>
