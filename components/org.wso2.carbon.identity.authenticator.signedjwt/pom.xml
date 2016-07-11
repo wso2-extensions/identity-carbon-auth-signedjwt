@@ -98,7 +98,7 @@
                         <Export-Package>
                             !org.wso2.carbon.identity.authenticator.signedjwt.internal,
                             org.wso2.carbon.identity.authenticator.signedjwt.*;
-                            version="${carbon.identity.package.export.version}"
+                            version="${carbon.identity.auth.signedjwt.export.version}"
                         </Export-Package>
                     </instructions>
                 </configuration>
