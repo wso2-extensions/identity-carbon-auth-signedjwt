@@ -222,7 +222,7 @@
         <carbon.kernel.version>4.4.7</carbon.kernel.version>
         <carbon.identity.auth.signedjwt.export.version>${project.version}</carbon.identity.auth.signedjwt.export.version>
 
-        <opensaml2.wso2.version>2.6.4.wso2v3</opensaml2.wso2.version>
+        <opensaml2.wso2.version>2.6.4.wso2v5</opensaml2.wso2.version>
         <nimbusds.version>2.26.1.wso2v3</nimbusds.version>
 
         <carbon.kernel.package.import.version.range>[4.4.0, 5.0.0)</carbon.kernel.package.import.version.range>
