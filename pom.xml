@@ -27,7 +27,7 @@
     <groupId>org.wso2.carbon.identity.carbon.auth.jwt</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-carbon-auth-signedjwt</artifactId>
-    <version>5.1.6</version>
+    <version>5.1.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - SignedJWT Authenticator Aggregator Module</name>
     <description>
@@ -39,7 +39,7 @@
         <url>https://github.com/wso2-extensions/identity-carbon-auth-signedjwt.git</url>
         <developerConnection>scm:git:https://github.com/wso2-extensions/identity-carbon-auth-signedjwt.git</developerConnection>
         <connection>scm:git:https://github.com/wso2-extensions/identity-carbon-auth-signedjwt.git</connection>
-        <tag>v5.1.6</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencyManagement>
