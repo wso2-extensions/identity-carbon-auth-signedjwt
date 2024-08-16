@@ -80,6 +80,11 @@
                 <artifactId>nimbus-jose-jwt</artifactId>
                 <version>${nimbusds.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -110,6 +115,25 @@
                             <SCM-Revision>${buildNumber}</SCM-Revision>
                         </instructions>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${jacoco.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>prepare-agent</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>report</id>
+                            <phase>test</phase>
+                            <goals>
+                                <goal>report</goal>
+                            </goals>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -188,6 +212,8 @@
         <maven.bundle.plugin.version>2.4.0</maven.bundle.plugin.version>
         <maven.compiler.plugin.version>2.3.1</maven.compiler.plugin.version>
         <carbon.p2.plugin.version>1.5.3</carbon.p2.plugin.version>
+    
+        <jacoco.version>0.8.12</jacoco.version>
     </properties>
 
     <modules>
