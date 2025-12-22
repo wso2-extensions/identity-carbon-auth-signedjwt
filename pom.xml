@@ -206,7 +206,7 @@
         <axis2.osgi.version.range>[1.6.1.wso2v12, 2.0.0)</axis2.osgi.version.range>
         <axiom.osgi.version.range>[1.2.11, 2.0.0)</axiom.osgi.version.range>
         <imp.pkg.version.javax.servlet>[2.6.0, 3.0.0)</imp.pkg.version.javax.servlet>
-        <nimbusds.osgi.version.range>[10.3.0.wso2v1,11.0.0)</nimbusds.osgi.version.range>
+        <nimbusds.osgi.version.range>[10.3.0,11.0.0)</nimbusds.osgi.version.range>
 
         <maven.scr.plugin.version>1.7.2</maven.scr.plugin.version>
         <maven.bundle.plugin.version>2.4.0</maven.bundle.plugin.version>
